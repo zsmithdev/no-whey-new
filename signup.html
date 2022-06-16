@@ -12,7 +12,7 @@
 
 <body>
     <header><a href="index.html">
-            <h1>No Whey <i class="fa-solid fa-seedling"></i></h1>
+            <h1>No Whey! <i class="fa-solid fa-seedling"></i></h1>
         </a></header>
     <nav>
         <ul id="navi">
@@ -26,10 +26,48 @@
                 <a class="active" href="signup.html">Sign Up</a>
             </li>
     </nav>
-<section id="signup-intro">
-    <div id="signup-image">
-    </div>
-    <div id="signup-title"></div>
-    <h2>Sign Up!</h2>
-    <p>Short para for sign up form, suggest contact section for any questions</p>
-</section>
+    <section id="signup-intro">
+        <div id="signup-image">
+        </div>
+        <div id="signup-title"></div>
+        <h2>Looking to sign up?</h2>
+        <p>Fill out the details below and submit to start your plant-based powerlifting journey. If you have any questions before you sign up regarding our gym, classes or
+            anything else, you can find our contact details <a href="index.html#contact-us" target="_blank">here</a>.</p>
+        <!-- As I don't have the PHP/SQL knowledge, I have left the form action attribute blank -->
+        <form method="POST" action="" class="trader-signup-form">
+
+            <p> <label for="name"><strong>What's your name?</strong></label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+                <label for="email"><strong>What's your email address?</strong></label>
+                <input type="email" id="email" name="email_address" required>
+            </p>
+            <p><strong>What class are you looking to join?</strong><br>
+                <label for="beg-class">Beginners Class</label>
+                <input type="radio" id="beg-class" name="class-choice" value="beg-class" required>
+                <label for="int-class">Intermediate Class</label>
+                <input type="radio" id="int-class" name="class-choice" value="int-class" required>
+                <label for="expert-class">Expert Class</label>
+                <input type="radio" id="expert-class" name="class-choice" value="expert-class" required>
+                <label for="youth-class">Youth Class</label>
+                <input type="radio" id="youth-class" name="class-choice" value="youth-class" required>
+            </p>
+            <p>
+                <label for="experience"><strong>What is your current lifting experience?</strong></label>
+                <input type="text" id="experience" name="experience" required>
+            </p>
+            <input type="submit" value="Submit" class="join-button">
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</i></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</i></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
