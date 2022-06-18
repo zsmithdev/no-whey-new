@@ -48,7 +48,7 @@ Images will be integrated into each page, catering to the visual and aesthetic-o
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-### Libraries, Frameworks and Programmes
+### Libraries, Frameworks, Tools and Programmes
 - [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to choose suitable fonts, generate a <link> to embded in the header, and it provided the CSS rule to specify families.
 - [Font Awesome](https://fontawesome.com/)
@@ -64,4 +64,4 @@ Images will be integrated into each page, catering to the visual and aesthetic-o
 
 ## Credits
 
-Image Credits in separate file - [view here](image-credits.md).
+Image Credits in separate file - [view here](assets/images/image-credits.md).
