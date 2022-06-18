@@ -84,7 +84,11 @@ ul {
     margin-left: 3%;
 }
 
-
+@media screen and (min-width: 600px) {
+    #title-text {
+        font-size: 500%;
+    }
+}
 
 #title-text {
     color: #F0E7E7;
@@ -94,6 +98,8 @@ ul {
     padding-top: 4%;
     text-decoration: none;
 }
+
+
 
 #upcoming-events {
     text-align: center;
@@ -119,8 +125,8 @@ ul {
     margin: 1%;
 }
 
-#address{
-    padding-bottom:0.8%;
+#address {
+    padding-bottom: 0.8%;
 }
 
 @media screen and (min-width: 980px) {
@@ -154,15 +160,6 @@ ul {
     background-image: url(../images/youth-class.jpg);
 }
 
-/* .class-pic {
-    width: 60%;
-    height: 40vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-} */
-
 img {
     width: 60%;
     height: 40vh;
@@ -172,19 +169,6 @@ img {
     margin: auto;
     object-fit: cover;
 }
-
-
-/* @media screen and (min-width: 900px) {
-    .classes {
-        width: 19%;
-        height: 20vh;
-        display: inline-block;
-        text-align: center;
-        margin-bottom: 25%;
-        padding: 0 2% 10% 2%;
-        vertical-align: top;
-
-    } */
 
 .classes {
     margin: 0 20% 0 20%;
