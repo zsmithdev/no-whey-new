@@ -61,8 +61,8 @@ ul {
 }
 
 @media screen and (min-width: 600px) {
-    #navi li{
-        font-size:100%;
+    #navi li {
+        font-size: 100%;
     }
 }
 
@@ -111,7 +111,8 @@ ul {
 #contact-us {
     text-align: center;
 }
-.contact{
+
+.contact {
     border: #CF7C7C;
     border-style: dotted;
     border-width: 5px;
@@ -119,16 +120,16 @@ ul {
 }
 
 @media screen and (min-width: 600px) {
-    .contact{
-        display:inline-block;
-        width:30%;
-        margin-bottom:2%;
+    .contact {
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 2%;
     }
 }
 
 /* Classes */
 
-#classes-desc{
+#classes-desc {
     margin: 0 2% 0 2%;
 }
 
@@ -148,7 +149,16 @@ ul {
     background-image: url(../images/youth-class.jpg);
 }
 
-.class-pic {
+/* .class-pic {
+    width: 60%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+} */
+
+img {
     width: 60%;
     height: 40vh;
     background-position: center;
@@ -183,6 +193,10 @@ footer {
 
 .join-button {
     margin-bottom: 3%;
+    font-size: 150%;
+    background-color: #CF7C7C;
+    padding: 3px;
+    font-family: 'Manrope', sans-serif;
 }
 
 form {
