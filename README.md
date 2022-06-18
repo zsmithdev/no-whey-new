@@ -58,9 +58,16 @@ Images will be integrated into each page, catering to the visual and aesthetic-o
 - [Coolors](https://coolors.co/?home)
     - Coolors was used to generate a complementary colour palette for the website, and to convert colours from HEX to rgba where required.
 
-## Testing
+## Validator Testing
+
+### HTML
+No errors were returned when passing through the official W3C validator.
+### CSS
+No errors were found when passing through the official (Jigsaw) validator.
 
 ## Deployment
+
+Deployed to GitHub Pages here.
 
 ## Credits
 
