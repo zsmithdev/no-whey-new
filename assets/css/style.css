@@ -60,12 +60,18 @@ ul {
     font-weight: bold;
 }
 
+@media screen and (min-width: 600px) {
+    #navi li{
+        font-size:100%;
+    }
+}
+
 /* Home Page */
 
 #hero-image {
     width: 100%;
     height: 50vh;
-    background-image: url(../images/images/barbell-sunset.jpg);
+    background-image: url(../images/barbell-sunset.jpg);
     background-position: 25% 35%;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
@@ -108,6 +114,10 @@ ul {
 
 /* Classes */
 
+#classes-desc{
+    margin: 0 2% 0 2%;
+}
+
 #beg-class {
     background-image: url(../images/beg-class.jpg);
 }
@@ -124,13 +134,13 @@ ul {
     background-image: url(../images/youth-class.jpg);
 }
 
-.class-pic{
+.class-pic {
     width: 60%;
     height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:auto;
+    margin: auto;
 }
 
 
@@ -146,10 +156,14 @@ ul {
 
     } */
 
-    footer {
-        position: absolute;
-        bottom: 0;
-    }
+.classes {
+    margin: 0 20% 0 20%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
 
 /* Sign up */
 
@@ -158,7 +172,7 @@ ul {
 }
 
 form {
-    background-image: url(../images/home-images/plates.jpg);
+    background-image: url(../images/plates.jpg);
     width: 100%;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
