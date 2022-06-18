@@ -67,7 +67,7 @@ No errors were found when passing through the official (Jigsaw) validator.
 
 ## Deployment
 
-Deployed to GitHub Pages here.
+Deployed to GitHub Pages [here](https://zsmithdev.github.io/no-whey-new/).
 
 ## Credits
 
