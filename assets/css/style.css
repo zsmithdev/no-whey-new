@@ -119,11 +119,16 @@ ul {
     margin: 1%;
 }
 
-@media screen and (min-width: 600px) {
+#address{
+    padding-bottom:0.8%;
+}
+
+@media screen and (min-width: 980px) {
     .contact {
         display: inline-block;
         width: 30%;
         margin-bottom: 2%;
+        padding-bottom: 2%;
     }
 }
 
@@ -165,6 +170,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    object-fit: cover;
 }
 
 
