@@ -1,7 +1,8 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #F0E7E7;
-    padding:1px;
+    padding: 1px;
+    text-align: center;
 }
 
 h1,
@@ -14,9 +15,14 @@ h1 {
     margin: 0;
 }
 
-body, html{
-    height:100%;
-    padding:0;
+h2 {
+    text-decoration: underline;
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0;
     margin: 0 1% 0 1%;
 }
 
@@ -26,15 +32,15 @@ a {
 }
 
 a:hover {
-    color: #2C532D;
+    color: #558B6E;
     text-decoration: underline;
 }
 
 /* Logo and Nav Bar */
 
-ul{
-    padding:0;
-    margin:2%;
+ul {
+    padding: 0;
+    margin: 2%;
 }
 
 #navbar {
@@ -56,9 +62,10 @@ ul{
 /* Home Page */
 
 #hero-image {
-    height: 50vh;
     width: 100%;
+    height: 50vh;
     background-image: url(../images/home-images/barbell-sunset.jpg);
+    background-position: 25% 35%;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
 }
@@ -77,6 +84,87 @@ ul{
     font-size: 360%;
     margin: 0;
     text-align: center;
-    padding-top:4%;
+    padding-top: 4%;
+    text-decoration: none;
 }
 
+#upcoming-events {
+    text-align: center;
+}
+
+.event {
+    border: #558B6E;
+    border-style: ridge;
+    border-width: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(85, 139, 110, 0.4);
+    border-radius: 30%;
+}
+
+#contact-us {
+    text-align: center;
+}
+
+/* Classes */
+@media screen and (min-width: 900px){
+    .classes{
+        width: 19%;
+        height: 20vh;
+        display: inline-block;
+        text-align:justify;
+        margin: 2px;
+        padding-bottom:10%;
+        vertical-align: top;
+    }
+}
+
+/* Sign up */
+
+.join-button {
+    margin-bottom: 3%;
+}
+
+form {
+    background-image: url(../images/home-images/plates.jpg);
+    width: 100%;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
+    background-position: center;
+    padding-top: 1%;
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+
+input {
+    margin-bottom: 1.5%;
+}
+
+#experience{
+    height:10vh;
+    width:50vh;
+}
+
+/* Footer */
+
+footer {
+    background-color: #558B6E;
+    padding: 3% 0 3% 0;
+    width: 100%;
+    text-align: center;
+    position: static;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+    margin: 0 3% 0 3%;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #F0E7E7;
+    text-decoration: underline;
+}
