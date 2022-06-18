@@ -103,13 +103,27 @@ ul {
     border: #CF7C7C;
     border-style: ridge;
     border-width: 1%;
-    margin-bottom: 1%;
+    margin: 1%;
     background-color: rgba(207, 124, 124, 0.4);
-    border-radius: 30%;
+    border-radius: 25px
 }
 
 #contact-us {
     text-align: center;
+}
+.contact{
+    border: #CF7C7C;
+    border-style: dotted;
+    border-width: 5%;
+    margin: 1%;
+}
+
+@media screen and (min-width: 600px) {
+    .contact{
+        display:inline-block;
+        width:30%;
+        margin-bottom:2%;
+    }
 }
 
 /* Classes */
