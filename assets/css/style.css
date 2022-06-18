@@ -3,6 +3,7 @@ body {
     background-color: #F0E7E7;
     padding: 1px;
     text-align: center;
+    color: #121212;
 }
 
 h1,
@@ -23,7 +24,7 @@ body,
 html {
     height: 100%;
     padding: 0;
-    margin: 0 1% 0 1%;
+    margin: 0;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 }
 
 a:hover {
-    color: #558B6E;
+    color: #CF7C7C;
     text-decoration: underline;
 }
 
@@ -93,11 +94,11 @@ ul {
 }
 
 .event {
-    border: #558B6E;
+    border: #CF7C7C;
     border-style: ridge;
     border-width: 1%;
     margin-bottom: 1%;
-    background-color: rgb(85, 139, 110, 0.4);
+    background-color: rgba(207, 124, 124, 0.4);
     border-radius: 30%;
 }
 
@@ -106,17 +107,49 @@ ul {
 }
 
 /* Classes */
-@media screen and (min-width: 900px){
-    .classes{
+
+#beg-class {
+    background-image: url(../images/beg-class.jpg);
+}
+
+#int-class {
+    background-image: url(../images/int-class.jpg);
+}
+
+#expert-class {
+    background-image: url(../images/expert-class.jpg);
+}
+
+#youth-class {
+    background-image: url(../images/youth-class.jpg);
+}
+
+.class-pic{
+    width: 60%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+}
+
+
+/* @media screen and (min-width: 900px) {
+    .classes {
         width: 19%;
         height: 20vh;
         display: inline-block;
-        text-align:justify;
-        margin: 2px;
-        padding-bottom:10%;
+        text-align: center;
+        margin-bottom: 25%;
+        padding: 0 2% 10% 2%;
         vertical-align: top;
+
+    } */
+
+    footer {
+        position: absolute;
+        bottom: 0;
     }
-}
 
 /* Sign up */
 
@@ -139,15 +172,15 @@ input {
     margin-bottom: 1.5%;
 }
 
-#experience{
-    height:10vh;
-    width:50vh;
+#experience {
+    height: 10vh;
+    width: 50vh;
 }
 
 /* Footer */
 
 footer {
-    background-color: #558B6E;
+    background-color: #D3A383;
     padding: 3% 0 3% 0;
     width: 100%;
     text-align: center;
